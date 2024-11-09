@@ -175,7 +175,7 @@ function App() {
           {generatingAnswer && (
             <div className="text-left">
               <div className="inline-block bg-[#1a1a1a] text-white p-3 rounded-lg animate-pulse">
-                Pleate Wait it make take few seconds...
+                Please Wait it may take few seconds...
               </div>
             </div>
           )}
