@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
 
@@ -26,7 +25,7 @@ function App() {
         response["data"]["candidates"][0]["content"]["parts"][0]["text"]
       );
     } catch (error) {
-      console.log(error);
+      console.log(error,"error");
       setAnswer("Sorry, something went wrong. Please try again.");
     }
     setGeneratingAnswer(false);
