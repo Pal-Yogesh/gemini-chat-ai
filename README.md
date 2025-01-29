@@ -2,7 +2,7 @@
 
 AI Chat App using Generative Language Client API
 
-[chat-ai](https://ai.visheshpandey.com)
+[chat-ai](https://gemini-chat-ai-dun.vercel.app/)
 
 ## Setup Procedure
 
